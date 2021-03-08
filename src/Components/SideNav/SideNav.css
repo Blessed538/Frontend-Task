@@ -1,0 +1,31 @@
+aside {    
+    z-index: 3 !important;
+
+
+}
+
+aside div.aside {
+    z-index: 3 !important;
+    
+}
+
+
+.overlay {
+    position: fixed;
+    z-index: 2;
+    display: none;
+    top: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .overlay.active {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+  @media (max-width: 900px) {
+      .ham {
+          display: flex;
+      }
+  }
